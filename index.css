@@ -1,15 +1,17 @@
 a:link, a:visited, a:hover, a:active {
     color: black;
-    background-color: transparent;
     text-decoration: none;
+    background-color: transparent;
 }
 html {
     margin: 0;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 body {
+    margin: 0;
+    display: grid;
     text-align: center;
 }
