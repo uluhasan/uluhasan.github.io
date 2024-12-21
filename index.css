@@ -9,15 +9,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+body {
     text-align: center;
 }
-/*
-body {
-    margin: 0;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-*/
