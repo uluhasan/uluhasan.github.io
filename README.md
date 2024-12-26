@@ -1,1 +1,0 @@
-Kişisel Genel Ağ Sitesi
