@@ -17,6 +17,6 @@ body {
 }
 footer {
     position: fixed;
-    margin-top: auto;
+    margin-bottom: 0;
     text-align: center;
 }
