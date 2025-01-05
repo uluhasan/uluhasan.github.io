@@ -1,4 +1,4 @@
-a:link, a:visited {
+a:link, a:visited, a:hover, a:active, a:focus {
     color: black;
     cursor: grab;
     text-decoration: none;
