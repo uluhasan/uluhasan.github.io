@@ -12,5 +12,6 @@ html {
 body {
     margin: 0;
     display: grid;
+    user-select: none;
     text-align: center;
 }
