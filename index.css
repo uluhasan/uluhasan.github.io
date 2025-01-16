@@ -14,7 +14,7 @@ body {
     margin: 0;
     display: grid;
     text-align: center;
-    animation: kayan 5s steps(30s) 1s forwards;
+    animation: kayan 5s steps(30) 1s forwards;
 }
 @keyframes kayan {
     0% {
