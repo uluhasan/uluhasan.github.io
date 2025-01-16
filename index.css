@@ -14,13 +14,13 @@ body {
     margin: 0;
     display: grid;
     text-align: center;
-    animation: kayan 10s linear infinite;
+    animation: kayan 5s steps(30s) 1s forwards;
 }
 @keyframes kayan {
     0% {
-        transform: translateX(100%); /* Animasyon başlarken yazı sağda olacak */
+        width: 0%;
     }
     100% {
-        transform: translateX(-100%); /* Animasyon sona ererken yazı solda olacak */
+        width: 100%;
     }
 }
