@@ -15,6 +15,6 @@ body {
     display: grid;
     text-align: center;
 }
-span {
+h3 {
     display: inline;
 }
