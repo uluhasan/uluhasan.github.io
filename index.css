@@ -14,14 +14,17 @@ a:link, a:visited, a:hover, a:active, a:focus {
     text-decoration: none;
 }
 h1, h2 {
-    animation: name 2s ease forwards;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: name 5s ease infinite;
 }
-
 @keyframes name {
     from {
         margin-left: 100%;
+        opacity: 0;
     }
     to {
         margin-left: 0%;
+        opacity: 1;
     }
 }
