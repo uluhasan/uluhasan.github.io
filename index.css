@@ -8,7 +8,7 @@ html {
 body {
     text-align: center;
 }
-a:link, a:visited, a:hover, a:active, a:focus {
+a {
     color: black;
     margin: inherit;
     text-decoration: none;
