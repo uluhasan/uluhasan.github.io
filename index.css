@@ -4,6 +4,7 @@ a:link, a:visited, a:hover, a:active, a:focus {
     text-decoration: none;
 }
 html {
+    gap: 10%;
     height: 100%;
     display: flex;
     user-select: none;
