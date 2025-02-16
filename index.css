@@ -4,6 +4,7 @@ html {
     user-select: none;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 body {
     text-align: center;
@@ -19,11 +20,15 @@ h1 {
     animation: name 5s ease infinite;
 }
 @keyframes name {
-    from {
+    0% {
         margin-left: 100%;
         opacity: 0;
     }
-    to {
+    20%, 80% {
+        margin-left: 0%;
+        opacity: 1;
+    }
+    100% {
         margin-left: 0%;
         opacity: 1;
     }
