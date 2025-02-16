@@ -1,9 +1,7 @@
 a:link, a:visited, a:hover, a:active, a:focus {
     color: black;
     cursor: grab;
-    display: flex;
     text-decoration: none;
-    justify-content: space-around;
 }
 html {
     height: 100%;
