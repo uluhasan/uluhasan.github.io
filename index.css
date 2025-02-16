@@ -3,7 +3,7 @@ a:link, a:visited, a:hover, a:active, a:focus {
     cursor: grab;
     display: grid;
     text-decoration: none;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
 }
 html {
     height: 100%;
