@@ -1,8 +1,6 @@
 a:link, a:visited, a:hover, a:active, a:focus {
-    gap: 10%;
     color: black;
     cursor: grab;
-    display: flex;
     text-decoration: none;
 }
 html {
