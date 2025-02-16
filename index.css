@@ -1,7 +1,7 @@
 a:link, a:visited, a:hover, a:active, a:focus {
     color: black;
-    display: grid;
     cursor: grab;
+    display: grid;
     text-decoration: none;
     grid-auto-flow: column;
 }
