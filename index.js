@@ -1,20 +1,19 @@
 document.addEventListener("keydown", (e) => e.preventDefault());
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 document.addEventListener("visibilitychange", function() {
-  let link = document.querySelector("link[rel*='icon']");
-  if (document.hidden) {
-    if (document.title !== "Güle Güle!") {
-      document.title = "Güle Güle!";
+    const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    if (document.hidden) {
+        document.title = "Güle Güle!";
+        link.type = 'image/x-icon';
+        link.rel = 'icon';
+        link.href = "basarisiz.ico";
+    } else {
+        document.title = "Hoş Geldin!";
+        link.type = 'image/x-icon';
+        link.rel = 'icon';
+        link.href = "basarili.ico";
     }
-    if (link && link.href !== "basarisiz.ico") {
-      link.href = "basarisiz.ico";
+    if (!document.querySelector("link[rel*='icon']")) {
+        document.head.appendChild(link);
     }
-  } else {
-    if (document.title !== "Hoş Geldin!") {
-      document.title = "Hoş Geldin!";
-    }
-    if (link && link.href !== "basarili.ico") {
-      link.href = "basarili.ico";
-    }
-  }
 });
