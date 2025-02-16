@@ -16,16 +16,12 @@ a {
 h1 {
     overflow: hidden;
     white-space: nowrap;
-    animation: name 2s ease infinite;
+    animation: name 5s ease infinite;
 }
 @keyframes name {
     0% {
         margin-left: 100%;
         opacity: 0;
-    }
-    20%, 80% {
-        margin-left: 0%;
-        opacity: 1;
     }
     100% {
         margin-left: 0%;
