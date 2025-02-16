@@ -4,7 +4,6 @@ html {
     user-select: none;
     align-items: center;
     justify-content: center;
-    background-color: white;
 }
 body {
     text-align: center;
@@ -17,7 +16,7 @@ a {
 h1 {
     overflow: hidden;
     white-space: nowrap;
-    animation: name 5s ease infinite;
+    animation: name 2s ease infinite;
 }
 @keyframes name {
     0% {
