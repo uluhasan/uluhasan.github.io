@@ -1,6 +1,6 @@
 a:link, a:visited, a:hover, a:active, a:focus {
-    color: black;
     cursor: grab;
+    color: black;
     margin: inherit;
     text-decoration: none;
 }
@@ -12,5 +12,6 @@ html {
     justify-content: center;
 }
 body {
+    margin: 0;
     text-align: center;
 }
