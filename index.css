@@ -1,6 +1,7 @@
 a:link, a:visited, a:hover, a:active, a:focus {
     color: black;
     cursor: grab;
+    margin: inherit;
     text-decoration: none;
 }
 html {
