@@ -4,7 +4,7 @@ document.addEventListener("visibilitychange", function() {
   let link = document.querySelector("link[rel*='icon']");
   if (document.hidden) {
     if (document.title !== "Güle Güle!") {
-      document.title = "Güle Güle";
+      document.title = "Güle Güle!";
     }
     if (link && link.href !== "basarisiz.ico") {
       link.href = "basarisiz.ico";
