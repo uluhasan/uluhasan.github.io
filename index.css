@@ -18,6 +18,12 @@ h1 {
     white-space: nowrap;
     animation: name 5s ease infinite;
 }
+h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: name 5s ease infinite;
+    margin-bottom: 25%;
+}
 @keyframes name {
     from {
         opacity: 0;
