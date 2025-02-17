@@ -19,12 +19,10 @@ h1 {
     animation: name 5s ease infinite;
 }
 @keyframes name {
-    0% {
-        margin-left: 100%;
+    from {
         opacity: 0;
     }
-    100% {
-        margin-left: 0%;
+    to {
         opacity: 1;
     }
 }
