@@ -14,29 +14,13 @@ a {
     text-decoration: none;
 }
 h1 {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: birinci 3s ease-in-out infinite alternate;
-}
-@keyframes birinci {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    animation: blink 2s ease-in-out infinite;
 }
 h2 {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: ikinci 3s ease-in-out infinite alternate;
-    margin-bottom: 25%;
+    animation: blink 2s ease-in-out infinite 1s;
+    margin-bottom: 18%;
 }
-@keyframes ikinci {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
