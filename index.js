@@ -1,7 +1,7 @@
 document.addEventListener("keydown", (e) => e.preventDefault());
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 document.addEventListener("visibilitychange", function() {
-    const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    const link = document.querySelector("link[rel*='icon']");
     if (document.hidden) {
         document.title = "Güle Güle!";
         link.type = 'image/x-icon';
@@ -12,8 +12,5 @@ document.addEventListener("visibilitychange", function() {
         link.type = 'image/x-icon';
         link.rel = 'icon';
         link.href = "basarili.ico";
-    }
-    if (!document.querySelector("link[rel*='icon']")) {
-        document.head.appendChild(link);
     }
 });
