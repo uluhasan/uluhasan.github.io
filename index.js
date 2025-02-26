@@ -1,10 +1,9 @@
 document.addEventListener("keydown", (e) => e.preventDefault());
 document.addEventListener("contextmenu", (e) => e.preventDefault());
-document.addEventListener("visibilitychange", function() {
-    const link = document.querySelector("link[rel*='icon']");
-    const isPageHidden = document.hidden;
-    const title = isPageHidden ? "Güle Güle!" : "Hoş Geldin!";
-    const iconHref = isPageHidden ? "basarisiz.ico" : "basarili.ico";
-    document.title = title;
-    link.href = iconHref;
-});
+let titles = ["Hasan Ulu", "Yazılım Geliştirici"]; // Başlıkları buraya ekledik
+let index = 0;
+function changeTitle() {
+    document.title = titles[index];
+    index = (index + 1) % titles.length;
+}
+setInterval(changeTitle, 3000);
