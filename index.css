@@ -2,12 +2,13 @@ html {
     height: 100%;
     display: flex;
     user-select: none;
-    text-align: center;
     align-items: center;
     justify-content: center;
 }
+body {
+    text-align: center;
+}
 a {
     color: black;
-    margin: inherit;
     text-decoration: none;
 }
