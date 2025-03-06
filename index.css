@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+    display: flex;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
