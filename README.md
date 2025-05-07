@@ -7,5 +7,4 @@ Gazi Üniversitesi bilgisayar mühendisliği son sınıf öğrencisiyim. JavaScr
 Detaylı özgeçmişimi ekte bilgilerinize sunuyorum. Değerli vaktiniz ve ilginiz için teşekkür ederim.
 
 Saygılarımla,
-
 Hasan Ulu
