@@ -7,4 +7,5 @@ T.C. Gazi Üniversitesi Bilgisayar Mühendisliği Bölümü’nde lisans eğitim
 Detaylı özgeçmişimi ekte bilgilerinize sunuyorum. Değerli zamanınız ve ilginiz için teşekkür ederim.
 
 Saygılarımla,
+
 Hasan Ulu
