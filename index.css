@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body, main {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    text-align: center;
+}
+main {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+header, footer {
+    width: 100%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+img {
+    width: 67%;
+    height: auto;
+}
