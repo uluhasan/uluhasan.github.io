@@ -4,13 +4,25 @@ html, body {
     height: 100%;
 }
 body, main {
-  	flex: 1
     display: flex;
-  	text-align: center;
     flex-direction: column;
+}
+body {
+    text-align: center;
+}
+main {
+    flex: 1;
+    align-items: center;
     justify-content: center;
+}
+footer {
+    width: 100%;
 }
 a {
     color: black;
     text-decoration: none;
+}
+img {
+    width: 67%;
+    height: auto;
 }
