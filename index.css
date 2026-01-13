@@ -4,14 +4,10 @@ html, body {
     height: 100%;
 }
 body, main {
+  	flex: 1
     display: flex;
+  	text-align: center;
     flex-direction: column;
-}
-body {
-    text-align: center;
-}
-main {
-    flex: 1;
     justify-content: center;
 }
 a {
