@@ -12,18 +12,9 @@ body {
 }
 main {
     flex: 1;
-    align-items: center;
     justify-content: center;
-}
-footer {
-    width: 100%;
 }
 a {
     color: black;
     text-decoration: none;
 }
-img {
-    width: 67%;
-    height: auto;
-}
-
