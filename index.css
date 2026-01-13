@@ -15,7 +15,7 @@ main {
     align-items: center;
     justify-content: center;
 }
-header, footer {
+footer {
     width: 100%;
 }
 a {
@@ -26,3 +26,4 @@ img {
     width: 67%;
     height: auto;
 }
+
