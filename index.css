@@ -15,9 +15,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-footer {
-    width: 100%;
-}
 a {
     color: black;
     text-decoration: none;
